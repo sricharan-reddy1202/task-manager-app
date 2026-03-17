@@ -4,6 +4,8 @@ const morgan = require("morgan");
 const connectDB = require("./config/db");
 const swaggerUi = require("swagger-ui-express");
 const swaggerSpec = require("./config/swagger");
+const cors = require("cors");
+
 require("dotenv").config();
 
 const authRoutes = require("./routes/authRoutes");
@@ -18,6 +20,7 @@ const limiter = rateLimit({
     max: 100,
     message: "Too many requests, please try again later."
 });
+app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
 app.use(limiter);
