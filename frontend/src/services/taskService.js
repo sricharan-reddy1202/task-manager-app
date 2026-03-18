@@ -13,3 +13,14 @@ export const getTasks = async () => {
 
   return response.data;
 };
+export const createTask = async (taskData) => {
+  const token = localStorage.getItem("token");
+
+  const response = await axios.post(API_URL, taskData, {
+    headers: {
+      Authorization: `Bearer ${token}`
+    }
+  });
+
+  return response.data;
+};
