@@ -7,21 +7,21 @@ This app allows users to register, login, and manage their tasks securely using 
 
 ## Features
 
-### 🔐 Authentication
+### Authentication
 
 * User Registration
 * User Login
 * JWT-based Authentication
 * Protected Routes
 
-### 📝 Task Management
+###  Task Management
 
 * Create Task
 * View Tasks
 * Update Task Status (Mark as Completed)
 * Delete Task
 
-### ⚡ Advanced Features
+###  Advanced Features
 
 * Pagination, Filtering, Sorting (Backend)
 * Centralized Error Handling
@@ -31,7 +31,7 @@ This app allows users to register, login, and manage their tasks securely using 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -55,7 +55,7 @@ This app allows users to register, login, and manage their tasks securely using 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 task-manager-api/
@@ -78,9 +78,9 @@ task-manager-api/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone Repository
+###  Clone Repository
 
 ```
 git clone https://github.com/sricharan-reddy1202/task-manager-api.git
@@ -89,7 +89,7 @@ cd task-manager-api
 
 ---
 
-### 2️⃣ Backend Setup
+###  Backend Setup
 
 ```
 npm install
@@ -111,7 +111,7 @@ npm run dev
 
 ---
 
-### 3️⃣ Frontend Setup
+###  Frontend Setup
 
 ```
 cd frontend
@@ -121,7 +121,7 @@ npm start
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 ### Auth APIs
 
@@ -143,7 +143,7 @@ DELETE /api/tasks/:id
 
 ---
 
-## 🔐 Authentication Flow
+##  Authentication Flow
 
 ```
 User Login → JWT Token Generated → Stored in localStorage → 
@@ -152,18 +152,18 @@ Sent in Authorization Header → Access Protected Routes
 
 ---
 
-## 📸 Screenshots (Optional but Recommended)
+##  Screenshots
 
-* Login Page
-* Register Page
-* Dashboard
-* Task Creation
+###  Login Page
+![Login](./screenshots/login.png)
 
-(Add screenshots here for better presentation)
+###  Register Page
+![Register](./screenshots/register.png)
 
----
+###  Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Add task deadlines
 * Add priority levels
@@ -172,7 +172,7 @@ Sent in Authorization Header → Access Protected Routes
 
 ---
 
-## 💡 What I Learned
+##  What I Learned
 
 * Full-stack development using MERN stack
 * REST API design and best practices
@@ -183,13 +183,13 @@ Sent in Authorization Header → Access Protected Routes
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Sricharan Reddy**
 GitHub: https://github.com/sricharan-reddy1202
 
 ---
 
-## ⭐ If you like this project
+##  If you like this project
 
 Give it a ⭐ on GitHub!
